@@ -1,0 +1,15 @@
+2020.04.22.
+
+Segmenation Issue ('uint8' -> 'uint32')
+- During working on 3_Real-Time_System, I found it issue at the segmentation phase in the preprocessing
+- Starting points for that were converted automatically under 255 due to the number function of numpy ('uint8')
+- which means that all segments were extracted at the front part starting under 255 and they were overlapped extremely
+- Hence, the results so far were invalidated and it is needed to conduct the experiments and analyze its results all over again 
+- The invalidated experiments are corresponding to the folders 01_10p_overlap ~ 04_shorten_length
+
+Training & Fine-tuning (subsample monitoring -> whole sample monitoring, model selection based on val_loss -> manually)
+- The monitoring values from subsample of the training set and the validation set in the training phase
+- could not represent the model's performance for whole tranining data
+- Changed the way monitoring of the results from subsample to whole sample
+- The performance for the testing data depended on both train_loss and val_loss
+- Decided not to use automatic model selection based only val_loss   
