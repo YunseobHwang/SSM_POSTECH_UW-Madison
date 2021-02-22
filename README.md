@@ -72,18 +72,11 @@
           width=80% />
 </p>
 
-### Sample Length
+### Window Size
 
 <p align="center">
      <b> Segmentation by Window Size</b> <br>
      <img alt="SEG_LEN" src="./images/segmentations_length.png"
-          width=80% />
-</p>
-<br>
-
-<p align="center">
-     <b> Wavelet Transform Images by Window Size</b> <br>
-     <img alt="WT" src="./images/wt_images_on_length.png"
           width=80% />
 </p>
 <br>
