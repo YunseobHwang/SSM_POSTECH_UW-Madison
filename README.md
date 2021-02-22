@@ -1,8 +1,8 @@
 # IIoT- and AI-based Smart Substainable Manufacturing
 
 - Dispatch Research in Madison, Wisconsin, US: 2020.02.15.~ 2020.06.14. (Early coming back due to the worsened Corona-19 situation in US) 
-
 - My part: Development of AI-based fault diagnosis system in cold forging process
+- DL Platform Conversion Tensorflow to Pytorch
 
 ## Outline
 
